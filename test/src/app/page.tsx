@@ -15,7 +15,7 @@ const MyLottieComponent = () => {
       <Lottie
         animationData={animationData}
         loop={isHovered} // Prevent looping when not hovered
-        autoplay={true} // Play only on hover
+        autoplay={isHovered} // Play only on hover
         style={{ height: '500px', width: '800px' }} 
       />
     </div>
