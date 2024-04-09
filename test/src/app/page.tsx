@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Lottie from 'lottie-react';
-import animationData from './animatehand.json';
+import animationData from './animate3.json';
 
 const MyLottieComponent = () => {
   const [isHovered, setIsHovered] = useState(false);
